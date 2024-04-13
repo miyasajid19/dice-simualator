@@ -9,7 +9,7 @@ def again():
     imageframe.destroy()
     imageframe=Frame(root)
     imageframe.pack()
-    rolltimes=random.randint(50,100)
+    rolltimes=random.randint(7,32)
     roll()
     
 def roll():
@@ -36,7 +36,7 @@ def roll():
         Button(imageframe,text="Roll Again",font="jokerman 12 italic",command=again).grid(row=3)
         
         
-rolltimes=random.randint(50,100)
+rolltimes=random.randint(7,32)
 print(rolltimes)
 imageframe=Frame(root)
 imageframe.pack()

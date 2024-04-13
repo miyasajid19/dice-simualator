@@ -37,7 +37,6 @@ def roll():
         
         
 rolltimes=random.randint(7,32)
-print(rolltimes)
 imageframe=Frame(root)
 imageframe.pack()
 cnt=0
